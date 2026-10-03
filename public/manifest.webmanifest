@@ -1,0 +1,17 @@
+{
+  "name": "DOXFRAME \u2014 Image & PDF Tools",
+  "short_name": "DOXFRAME",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070a12",
+  "theme_color": "#795cff",
+  "icons": [
+    {
+      "src": "/assets/doxframe-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "version": "23.2.8"
+}
