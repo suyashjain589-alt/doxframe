@@ -3,6 +3,7 @@
   "name": "doxframe",
   "main": "worker.js",
   "compatibility_date": "2026-08-20",
+  "workers_dev": true,
   // After doxframe.com is attached to Cloudflare, you can enable this: 
   // "routes": [{"pattern":"doxframe.com","custom_domain":true}],
   "assets": {
@@ -20,7 +21,4 @@
   "triggers": {
     "crons": ["17 3 * * *"]
   },
-  "secrets": {
-    "required": ["AUTH_PEPPER", "RESEND_API_KEY", "FROM_EMAIL"]
-  }
 }
